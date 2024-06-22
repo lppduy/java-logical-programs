@@ -18,5 +18,7 @@ public class IntegerToBinary {
         for (int j = i - 1; j >= 0; j--) {
             System.out.print(binary[j]);
         }
+
+        scanner.close();
     }
 }
